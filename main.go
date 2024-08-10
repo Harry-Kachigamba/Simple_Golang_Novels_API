@@ -46,7 +46,7 @@ func novelById(c *gin.Context) {
 	c.IndentedJSON(http.StatusOK, novel)
 }
 
-// method to checkout a book
+// method to checkout a novel
 func checkoutNovel(c *gin.Context) {
 	id, ok := c.GetQuery("id")
 
